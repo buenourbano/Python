@@ -1,7 +1,7 @@
 #ENUNCIADO
-#Rediseñe la anterior función para que proporcione un generador, caso de no incluir ya esa funcionalidad.
+#Rediseñe la función del ejercicio1.py para que proporcione un generador, caso de no incluir ya esa funcionalidad.
 
-def floatingrange2(comienzo,final,paso=0.1):
+def frange2(comienzo,final,paso=0.1):
     elemento = comienzo
     if paso==0:
         paso=0.1
