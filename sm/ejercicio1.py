@@ -1,7 +1,7 @@
 #ENUNCIADO
 #Diseñe un proceso que simule el funcionamiento de "range" y que permita el uso de parámetro de tipo float.
 
-def fgrange(comienzo,final,paso=0.1):
+def frange(comienzo,final,paso=0.1):
     elemento = comienzo
     resultado = []
     if paso==0:
