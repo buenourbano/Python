@@ -1,12 +1,13 @@
 #ENUNCIADO
 #Diseñe un proceso que simule el funcionamiento de "range" y que permita el uso de parámetro de tipo float.
 
-def floatingrange(comienzo,final,paso):
-    elemento = float(comienzo)
-    parada = float(final)
-    pasolocal = float(paso)
+def fgrange(comienzo,final,paso=0.1):
+    elemento = comienzo
     resultado = []
-    while elemento < parada:
-        resultado.append(elemento)
-        elemento += pasolocal
+    if paso==0:
+        paso=0.1
+    else:
+        while elemento < final:
+            resultado.append(elemento)
+            elemento += paso
     return resultado
