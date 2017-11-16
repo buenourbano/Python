@@ -4,8 +4,7 @@
 #Definimos la función
 
 def LetraDNI(n):
-    import string
-    lst=list(string.ascii_uppercase) #Hacemos lista un string con todas las letras mayúsculas
+    lst=['T','R','W','A','G','M','Y','F','P','D','X','B','N','J','Z','S','Q','V','H','L','C','K','E']
     resto=n%23
     print("La letra del NIE {0} es {1}.".format(n,lst[resto]))
 
