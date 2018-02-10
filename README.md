@@ -7,3 +7,5 @@ En este repositorio iré subiendo aquellos trabajos y ejercicios que vaya desarr
 ## Directorios
 
 * *sm* contiene todos los ejercicios para entregar en la asignatura Software en Matemáticas del Máster en Matemáticas de la Universidad de Granada.
+
+* *bifurcation-diagram* contiene varios archivos en python que generan, de distintas formas, diagramas de bifurcación para la ecuación logística.
